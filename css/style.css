@@ -404,6 +404,26 @@
     transition: 0.5s;
 }
 
+/* Основные стили для десктопной версии */
+body {
+    font-size: 16px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Медиа-запрос для устройств с шириной экрана 768px и меньше (мобильные устройства) */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+      background-color: #ffffff;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 0 10px;
+    }
+  }
+  
+
 @media (min-width: 992px) {
     .bg-breadcrumb {
         padding: 140px 0 60px 0;
