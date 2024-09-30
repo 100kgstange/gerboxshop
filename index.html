@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Gerbox Shop</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid topbar bg-light px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <a class="btn btn-md-square btn-light rounded-circle mx-2" href="mailto:gerbox.shop@gmail.com" target="_blank">
+                            <i class="fas fa-envelope fa-2x"></i>
+                        </a> 
+                        <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://wa.me/79009355868" target="_blank">
+                            <i class="fab fa-whatsapp-square fa-2x"></i>
+                        </a>
+                        <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://t.me/ggbit01k" target="_blank">
+                            <i class="fab fa-telegram fa-2x"></i>
+                        </a>                      
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <div class="d-flex justify-content-end ms-2">
+                            <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://t.me/gerboxshop" target="_blank">
+                                <i class="fab fa-telegram-plane fa-2x"></i>
+                            </a>
+                            <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://www.instagram.com/gerbox_shop/" target="_blank">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>                                               
+                        </div>
+                   <!--      <a href="#"><small class="me-3 text-dark"><i class="fa fa-user text-primary me-2"></i>Register</small></a> -->
+                   <!--      <a href="#"><small class="me-3 text-dark"><i class="fa fa-sign-in-alt text-primary me-2"></i>Login</small></a> -->
+                   <!--      <div class="dropdown">
+                            <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i class="fa fa-home text-primary me-2"></i> My Dashboard</small></a>
+                            <div class="dropdown-menu rounded">
+                                <a href="#" class="dropdown-item"><i class="fas fa-user-alt me-2"></i> My Profile</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-comment-alt me-2"></i> Inbox</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-bell me-2"></i> Notifications</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-cog me-2"></i> Account Settings</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-power-off me-2"></i> Log Out</a> -->
+<!--                             </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+             <!--   <a href="" class="navbar-brand p-0 d-flex align-items-center">
+                    <a class="btn btn-md-square btn-light rounded-circle mx-2" href="mailto:gerbox.shop@gmail.com" target="_blank">
+                        <i class="fas fa-envelope fa-2x"></i>
+                    </a> 
+                    <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://wa.me/79009355868" target="_blank">
+                        <i class="fab fa-whatsapp-square fa-2x"></i>
+                    </a>
+                    <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://t.me/ggbit01k" target="_blank">
+                        <i class="fab fa-telegram fa-2x"></i>
+                    </a>
+                </a> -->
+             <!--   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button> -->
+            <!--    <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown"></a>
+                        </div>
+                    </div>
+                </div> -->
+            </nav>
+        </div>
+
+  
+        
+        <!-- Carousel -->         
+            <div class="header-carousel owl-carousel">
+                <div class="header-carousel-item">
+                    <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row g-5">
+                                <div class="col-12 animated fadeInUp">
+                                    <div class="text-center">
+                                        <!-- Логотип над заголовком -->
+                                        <img src="img/logo_symbol-removebg-preview.png" alt="Logo" class="mb-4" style="max-height: 150px; height: auto; width: auto; display: block; margin: 0 auto;"> 
+                                        <h4 class="text-primary text-uppercase fw-bold mb-4 fs-2">WELCOME TO GERBOX</h4>
+                                        <h1 class="display-4 text-uppercase text-white mb-4">Товары из Европы и США</h1>
+                                        <p class="mb-5 fs-3">Только оригинальная продукция</p>       
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <h2 class="text-white me-2">Актуальные предложения:</h2>
+                                            <div class="d-flex justify-content-end ms-2">
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://t.me/gerboxshop" target="_blank">
+                                                    <i class="fab fa-telegram-plane fa-2x"></i>
+                                                </a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://www.instagram.com/gerbox_shop/" target="_blank">
+                                                    <i class="fab fa-instagram fa-2x"></i>
+                                                </a>                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="header-carousel-item">
+                    <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row g-5">
+                                <div class="col-12 animated fadeInUp">
+                                    <div class="text-center">
+                                        <!-- Логотип над заголовком -->
+                                        <img src="img/logo_symbol-removebg-preview.png" alt="Logo" class="mb-4" style="max-height: 150px; height: auto; width: auto; display: block; margin: 0 auto;"> 
+                                        <h4 class="text-primary text-uppercase fw-bold mb-4 fs-2">WELCOME TO GERBOX</h4>
+                                        <h1 class="display-4 text-uppercase text-white mb-4">Товары из Европы и США</h1>
+                                        <p class="mb-5 fs-3">Профессиональная консультация</p>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <h2 class="text-white me-2">Актуальные предложения:</h2>
+                                            <div class="d-flex justify-content-end ms-2">
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://t.me/gerboxshop" target="_blank">
+                                                    <i class="fab fa-telegram-plane fa-2x"></i>
+                                                </a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://www.instagram.com/gerbox_shop/" target="_blank">
+                                                    <i class="fab fa-instagram fa-2x"></i>
+                                                </a>                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-carousel-item">
+                    <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row g-5">
+                                <div class="col-12 animated fadeInUp">
+                                    <div class="text-center">
+                                        <!-- Логотип над заголовком -->
+                                        <img src="img/logo_symbol-removebg-preview.png" alt="Logo" class="mb-4" style="max-height: 150px; height: auto; width: auto; display: block; margin: 0 auto;"> 
+                                        <h4 class="text-primary text-uppercase fw-bold mb-4 fs-2">WELCOME TO GERBOX</h4>
+                                        <h1 class="display-4 text-uppercase text-white mb-4">Товары из Европы и США</h1>
+                                        <p class="mb-5 fs-3">Индивидуальный подход к каждому клиенту</p>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <h2 class="text-white me-2">Актуальные предложения:</h2>
+                                            <div class="d-flex justify-content-end ms-2">
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://t.me/gerboxshop" target="_blank">
+                                                    <i class="fab fa-telegram-plane fa-2x"></i>
+                                                </a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://www.instagram.com/gerbox_shop/" target="_blank">
+                                                    <i class="fab fa-instagram fa-2x"></i>
+                                                </a>                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-carousel-item">
+                    <img src="img/carousel-4.jpg" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row g-5">
+                                <div class="col-12 animated fadeInUp">
+                                    <div class="text-center">
+                                        <!-- Логотип над заголовком -->
+                                        <img src="img/logo_symbol-removebg-preview.png" alt="Logo" class="mb-4" style="max-height: 150px; height: auto; width: auto; display: block; margin: 0 auto;"> 
+                                        <h4 class="text-primary text-uppercase fw-bold mb-4 fs-2">WELCOME TO GERBOX</h4>
+                                        <h1 class="display-4 text-uppercase text-white mb-4">Товары из Европы и США</h1>
+                                        <p class="mb-5 fs-3">Надёжность и качество услуг</p>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <h2 class="text-white me-2">Актуальные предложения:</h2>
+                                            <div class="d-flex justify-content-end ms-2">
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://t.me/gerboxshop" target="_blank">
+                                                    <i class="fab fa-telegram-plane fa-2x"></i>
+                                                </a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://www.instagram.com/gerbox_shop/" target="_blank">
+                                                    <i class="fab fa-instagram fa-2x"></i>
+                                                </a>                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Services Start -->
+        <div class="container-fluid service pb-5" style="margin-top: 50px;"> 
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Наша деятельность</h4>        
+                    <h1 class="display-5 mb-4">Что мы предлагаем?</h1>
+                    <p class="mb-0">В нынешнее время оформить покупку заграницей зачастую выгоднее, чем дома. Но не каждый имеет такую возможность. Мы доставляем товары из Германии, стран Евросоюза и США.    
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item d-flex flex-column justify-content-between h-100">
+                            <div class="service-img">
+                                <img src="img/service-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4 d-flex flex-column justify-content-between align-items-center text-center">
+                                <a href="#" class="h4 d-inline-block mb-4">Одежда</a>
+                                <p class="mb-4">Для любой погоды и активности в известных брендах</p>
+                                <a href="#order" class="btn btn-primary">Заказать</a>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item d-flex flex-column justify-content-between h-100">
+                            <div class="service-img">
+                                <img src="img/service-1.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4 d-flex flex-column justify-content-between align-items-center text-center">
+                                <a href="#" class="h4 d-inline-block mb-4">Обувь</a>
+                                <p class="mb-4">Подберём и привезём обувь необходимого размера</p>
+                                <a href="#order" class="btn btn-primary">Заказать</a>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-between h-100">
+                            <div class="service-img">
+                                <img src="img/service-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4 d-flex flex-column justify-content-between align-items-center text-center">
+                                <a href="#" class="h4 d-inline-block mb-4">Сумки и рюкзаки</a>
+                                <p class="mb-4">Для путешествий, учёбы и повседневной жизни</p>
+                                <a href="#order" class="btn btn-primary">Заказать</a>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item d-flex flex-column justify-content-between h-100">
+                            <div class="service-img">
+                                <img src="img/service-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4 d-flex flex-column justify-content-between align-items-center text-center">
+                                <a href="#" class="h4 d-inline-block mb-4">Косметика</a>
+                                <p class="mb-4">Подчеркни красоту с помощью проверенных продуктов</p>
+                                <a href="#order" class="btn btn-primary">Заказать</a>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item d-flex flex-column justify-content-between h-100">
+                            <div class="service-img">
+                                <img src="img/service-5.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4 d-flex flex-column justify-content-between align-items-center text-center">
+                                <a href="#" class="h4 d-inline-block mb-4">Аксессуары</a>
+                                <p class="mb-4">Очаровательные аксессуары для любого образа</p>
+                                <a href="#order" class="btn btn-primary">Заказать</a>
+                            </div>
+                        </div>
+                    </div>                   
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-between h-100">
+                            <div class="service-img">
+                                <img src="img/service-6.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4 d-flex flex-column justify-content-between align-items-center text-center">
+                                <a href="#" class="h4 d-inline-block mb-4">Прочие товары</a>
+                                <p class="mb-4">Предложи свой вариант нашему консультанту, и мы найдём взаимовыгодное решение</p>
+                                <a href="#order" class="btn btn-primary">Заказать</a>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!-- Referal Start -->
+        <div class="container-fluid offer-section pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 900px;">
+                    <h4 class="text-primary">Становись рефералом и получай выгоду</h4>
+                    <h1 class="display-5 mb-4">Сотрудничество  с нами</h1>
+                    <p class="mb-0">Присоединяйся к реферальной программе и получай вознаграждения за привлечение новых клиентов
+                    </p>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="nav nav-pills bg-light rounded p-5">
+                            <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
+                                <h5 class="mb-0">Бронзовый реферал</h5>
+                            </a>
+                            <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
+                                <h5 class="mb-0">Серебряный реферал</h5>
+                            </a>
+                            <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
+                                <h5 class="mb-0">Золотой реферал</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="tab-content">
+                            <div id="collapseOne" class="tab-pane fade show p-0 active">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="img/ref-1.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-6 mb-4">Оформи первую покупку</h1>
+                                        <p class="mb-4"> и стань бронзовым рефералом!</p>
+                                        <p class="mb-4"> Получай 1% от стоимости заказа приглашенных друзей*</p>
+                                        <p class="mb-4">
+                                            <small>*Покупатель обязан указать твой промокод при покупке</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="collapseTwo" class="tab-pane fade show p-0">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="img/ref-2.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-6 mb-4">Пригласи 5 друзей</h1>
+                                        <p class="mb-4"> и получи статус серебряного реферала! 
+                                        </p>
+                                        <p class="mb-4"> Зарабатывай 3% от стоимости заказа приглашенных друзей*</p>
+                                        <p class="mb-4">
+                                            <small>*Покупатель обязан указать твой промокод при покупке</small>
+                                        </p>                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="collapseThree" class="tab-pane fade show p-0">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="img/ref-3.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-6 mb-4">Пригласи еще 10 друзей</h1>
+                                        <p class="mb-4">чтобы стать золотым рефералом!</p>
+                                        <p class="mb-4"> За каждую покупку друзей ты получаешь 5% от стоимости заказа*</p>
+                                        <p class="mb-4">
+                                            <small>*Покупатель обязан указать твой промокод при покупке</small>
+                                        </p>
+                                    </div>                                                                      
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Referal End -->
+
+
+        <!-- HowToOrder Start -->
+        <div class="container-fluid feature pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Ближе к делу</h4>
+                    <h1 class="display-5 mb-4">Как оформить заказ?</h1>
+                    <p class="mb-0">Это действительно очень просто! Всего 4 шага:
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-envelope fa-4x text-primary"></i>
+                            </div>
+                            <h4>1. Контакт</h4>
+                            <p class="mb-4">Свяжись с нашим менеджером для консультации по заказу
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-shopping-cart fa-4x text-primary"></i>
+                            </div>
+                            <h4>2. Заказ</h4>
+                            <p class="mb-4">Внеси предоплату и оформи заказ 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-box fa-4x text-primary"></i>
+                            </div>
+                            <h4>3. Доставка</h4>
+                            <p class="mb-4">Ожидай доставку товара по почте
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-thumbs-up fa-4x text-primary"></i>
+                            </div>
+                            <h4>4. Получение</h4>
+                            <p class="mb-4">Получи товар и наслаждайся покупкой
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- HowToOrder End -->
+
+
+        <!-- Order Start -->
+        <div id="order" class="container-fluid about pb-5">
+            <div class="container pb-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">Наши контакты</h4>
+                            <h1 class="display-5 mb-4">Оформи заказ</h1>
+                            <p class="mb-1">Мы проконсультируем касаемо интересующих тебя покупок</p>
+                            <p class="mb-1">Поможем с выбором размера</p>
+                            <p class="mb-4">Доставим за несколько недель</p>
+
+                            <div class="row g-4">                     
+                                <!-- First icon and text -->
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fab fa-telegram fa-3x text-primary"></i>
+                                        <div class="ms-4">
+                                            <h4>Telegram для заказов</h4>
+                                            <p>Связь с менеджером</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Button -->
+                                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                                    <a href="https://t.me/ggbit01k" target="_blank" class="btn btn-primary rounded-pill py-3 px-8 flex-shrink-0 btn-fixed-size">Написать в Telegram</a>
+                                </div>
+                                
+                                <!-- Second icon and text -->
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fab fa-whatsapp-square fa-3x text-primary"></i>
+                                        <div class="ms-4">
+                                            <h4>WhatsApp для заказов</h4>
+                                            <p>Связь с менеджером</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Button -->
+                                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                                    <a href="https://wa.me/79009355868" target="_blank" class="btn btn-primary rounded-pill py-3 px-8 flex-shrink-0 btn-fixed-size">Написать в WhatsApp</a>
+                                </div>
+                                
+                                <!-- Third icon and text -->
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fas fa-envelope fa-3x text-primary"></i>
+                                        <div class="ms-4">
+                                            <h4>E-Mail</h4>
+                                            <p>Для коммерческих предложений</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Button -->
+                                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                                    <a href="mailto:gerbox.shop@gmail.com" target="_blank" class="btn btn-primary rounded-pill py-3 px-8 flex-shrink-0 btn-fixed-size">Отправить E-Mail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Image section -->
+                    <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="bg-primary rounded position-relative overflow-hidden">
+                            <img src="img/logo.png" class="img-fluid rounded w-100" alt="About Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Order End -->
+
+
+        <!-- FAQs Start -->
+        <div class="container-fluid faq-section pb-5">
+            <div class="container pb-5 overflow-hidden">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">FAQs</h4>
+                    <h1 class="display-5 mb-4">Часто задаваемые вопросы</h1>
+                    <p class="mb-2">Каждый клиент должен быть уверен в своей покупке.
+                    </p>
+                    <p class="mb-0">В связи с этим мы ответили на часто задаваемые вопросы:
+                    </p>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="accordion accordion-flush bg-light rounded p-5" id="accordionFlushSection">
+                            <div class="accordion-item rounded-top">
+                                <h2 class="accordion-header" id="flush-headingNull">
+                                    <button class="accordion-button collapsed rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNull" aria-expanded="false" aria-controls="flush-collapseNull">
+                                    Какой срок на возврат?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseNull" class="accordion-collapse collapse" aria-labelledby="flush-headingNull" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">У тебя есть право на 30 дневный возврат товара после получения.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded-top">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Сколько стоит доставка?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">Стоимость доставки уже включена в стоимость заказа и зависит от различных факторов, например: количество артиклей в заказе, размер посылки и валютный курс. </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                   Как сэкономить на доставке?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">Стоимость доставки снижается при повышении количества артиклей в заказе. Например: при оформлении заказа с друзьями, стоимость доставки будет распеределена между несколькими заказчиками.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Как происходит оплата?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">Покупатель вносит 50% предоплаты при оформлении заказа, оставшиеся 50% - при получении. Короче тут надо написать про нейтральный счёт по принципу как на авито.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    Какие сроки доставки?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">Сроки доставки зависят от наличия товаров на складе и загруженности на таможенном контроле. Обычно доставка происходит в течении 3-5 недель с момента заказа. С нашей стороны мы делаем всё возможное, чтобы покупатель получил доставку как можно скорее.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                    Как доставляется товар?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">На данный момент доставка товара осуществляется логистической компанией DHL до границы с Россией. Затем "Почта России" перенимает доставку непосредственно покупателю или менеджеру по заказам.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded-top">
+                                <h2 class="accordion-header" id="flush-headingSix">
+                                    <button class="accordion-button collapsed rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Можно ли поменять логистическую компанию?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">На данный момент доставка DHL и "Почтой России" является единственной и оптимальной возможностью для отправки посылок.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded-top">
+                                <h2 class="accordion-header" id="flush-headingSeven">
+                                    <button class="accordion-button collapsed rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Можно ли ускорить срок доставки?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">На данный момент, к сожалению, мы не имеем более быстрого способа доставки посылок.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded-bottom">
+                                <h2 class="accordion-header" id="flush-headingEight">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseSix">
+                                    Возможна ли доставка электроустройств?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">Международные перевозки электроустройств допустимы только при условии отсутствия литиевых батарей.</div>
+                                </div>
+                            </div>
+                            <div class="accordion" id="accordionFlushSection">
+                                <div class="accordion-item rounded-bottom">
+                                    <h2 class="accordion-header" id="flush-headingNine">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Какие товары запрещены для перевозки?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushSection">
+                                        <div class="accordion-body">
+                                            Международные перевозки осуществляются согласно положению о взрывоопасных грузах (ориг. "DHL International Gefahrgutversand") и запрещают перевозку следующих товаров:
+                                            <ol>
+                                                <li><strong>Газогенераторы</strong> и модули подушек безопасности или натяжители ремней, отдельно или встроенные.</li>
+                                                <li><strong>Алкогольные напитки</strong> с содержанием алкоголя более 24%, но менее 70% в ёмкостях объёмом более 5 литров; алкогольные напитки с содержанием алкоголя более 70%.</li>
+                                                <li><strong>Батареи (аккумуляторы)</strong>, такие как вытекающие/не вытекающие свинцовые или щелочные батареи (обычные в автомобилях, электрических инвалидных креслах); а также любые цинк-угольные батареи и все повреждённые батареи.</li>
+                                                <li><strong>Горючие жидкости</strong>, такие как алкогольные напитки, ацетон, бензол, бутан, керосин, краски с растворителями, растворители и удалители, лаки, глазури и некоторые клеи.</li>
+                                                <li><strong>Горючие вещества</strong>, включая магний, фосфор, калий, натрий, гидрид натрия, цинковый порошок.</li>
+                                                <li><strong>Электронные устройства</strong>, содержащие литиевые батареи (например, мобильные телефоны или цифровые камеры).</li>
+                                                <li><strong>Воспламеняющиеся косметические изделия</strong>, такие как лак для ногтей, парфюм, туалетная вода и лосьон после бритья.</li>
+                                                <li><strong>Газовые и бензиновые зажигалки</strong>, а также картриджи для зажигалок с воспламеняющимся газом.</li>
+                                                <li><strong>Газы</strong> (воспламеняющиеся, невоспламеняющиеся, сжатые и токсичные), включая бутан, этан, метан, пропан, огнетушители, баллоны сжатого воздуха для дайвинга.</li>
+                                                <li><strong>Яды</strong> – токсичные вещества, такие как мышьяк, бериллий, цианид, фтор или крысиный яд, которые могут нанести вред здоровью или привести к смерти при вдыхании, проглатывании или контакте с кожей.</li>
+                                                <li><strong>Инфекционные и/или биологические вещества</strong>, содержащие патогены (бактерии, вирусы, паразиты, прионы и другие вещества), которые могут вызывать заболевания у людей или животных.</li>
+                                                <li><strong>Диоксид углерода</strong> в твёрдой форме (сухой лёд).</li>
+                                                <li><strong>Коррозионные вещества</strong>, такие как кислоты, щёлочи, красители, чистящие средства, средства для удаления ржавчины, каустическая сода, ртуть и галлий.</li>
+                                                <li><strong>Литиевые батареи</strong> (аккумуляторы) и ячейки – как отдельно, так и в составе электронных устройств (например, мобильные телефоны или цифровые камеры); а также все повреждённые батареи (аккумуляторы).</li>
+                                                <li><strong>Боеприпасы</strong>, за исключением пуль для пневматического оружия.</li>
+                                                <li><strong>Окислители или пероксиды</strong>, такие как отбеливатели и дезинфицирующие средства, краски для волос и другие красители, содержащие пероксиды.</li>
+                                                <li><strong>Пестициды</strong> – токсичные гербициды и инсектициды.</li>
+                                                <li><strong>Аэрозольные баллоны</strong>, содержащие сжатые газы (например, лак для волос и дезодорант).</li>
+                                                <li><strong>Взрывчатые вещества</strong>, такие как детонаторы, компоненты подушек безопасности, фейерверки, бенгальские огни или сигнальные ракеты.</li>
+                                                <li><strong>Спички</strong>, такие как безопасные или «везде зажигаемые» спички в коробках или книжках.</li>
+                                                <li><strong>Экологически опасные отходы</strong>, такие как машинное масло или использованные батареи (аккумуляторы).</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="bg-primary rounded">
+                            <img src="img/logo.png" class="img-fluid w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FAQs End -->
+
+       <!-- Team Start -->
+        <div class="container-fluid team pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h1 class="display-5 mb-4">Наша команда</h1>
+                    <p class="mb-0">Мы организовали нашу команду в 2022 году и продолжаем радовать вас своим сервисом</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item text-center"> 
+                            <div class="team-img">
+                                <img src="img/team-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="team-title">
+                                <h4 class="mb-0">Владислав</h4>
+                                <p class="mb-0">CEO & IT</p>
+                            </div>
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="team-item text-center"> 
+                            <div class="team-img">
+                                <img src="img/team-2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="team-title">
+                                <h4 class="mb-0">Егор</h4>
+                                <p class="mb-0">Sales</p>
+                            </div>
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+  
+        <!-- Reviews Start -->
+        <div class="container-fluid testimonial pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 900px;">
+                    <h4 class="text-primary">Обратная связь</h4>
+                    <h1 class="display-5 mb-4">Отзывы клиентов</h1>
+                    <p class="mb-0">Мы за честное сотрудничество и наши клиенты подтверждают качество нашей работы.</p>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="testimonial-item">
+                        <img src="img/Reviews/1.png" class="review-img img-fluid" alt="Client Review">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/Reviews/2.png" class="review-img img-fluid" alt="Client Review">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/Reviews/3.png" class="review-img img-fluid" alt="Client Review">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/Reviews/4.png" class="review-img img-fluid" alt="Client Review">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/Reviews/5.png" class="review-img img-fluid" alt="Client Review">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/Reviews/6.png" class="review-img img-fluid" alt="Client Review">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/Reviews/7.png" class="review-img img-fluid" alt="Client Review">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/Reviews/8.png" class="review-img img-fluid" alt="Client Review">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/Reviews/9.png" class="review-img img-fluid" alt="Client Review">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/Reviews/10.png" class="review-img img-fluid" alt="Client Review">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/Reviews/11.png" class="review-img img-fluid" alt="Client Review">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/Reviews/12.png" class="review-img img-fluid" alt="Client Review">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/Reviews/13.png" class="review-img img-fluid" alt="Client Review">
+                    </div>
+                    <!-- Add more testimonials as needed -->
+                </div>
+            </div>
+        </div>
+        <!-- Reviews End -->
+
+        <!-- Footer Start -->
+         <!--        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5 border-start-0 border-end-0" style="border: 1px solid; border-color: rgb(255, 255, 255, 0.08);">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item">
+                            <a href="index.html" class="p-0">
+                                <h4 class="text-white"><i class="fab fa-sistrix me-3"></i>Gerbox</h4>
+                            </a>
+                            <p class="mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
+                            <div class="d-flex">
+                                <a href="#" class="bg-primary d-flex rounded align-items-center py-2 px-3 me-2">
+                                    <i class="fas fa-apple-alt text-white"></i>
+                                    <div class="ms-3">
+                                        <small class="text-white">Download on the</small>
+                                        <h6 class="text-white">App Store</h6>
+                                    </div>
+                                </a>
+                                <a href="#" class="bg-dark d-flex rounded align-items-center py-2 px-3 ms-2">
+                                    <i class="fas fa-play text-primary"></i>
+                                    <div class="ms-3">
+                                        <small class="text-white">Get it on</small>
+                                        <h6 class="text-white">Google Play</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-2">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Quick Links</h4>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Attractions</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Tickets</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Blog</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Support</h4>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Disclaimer</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Support</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Help</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Contact Info</h4>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                                <p class="text-white mb-0">123 Street New York.USA</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-envelope text-primary me-3"></i>
+                                <p class="text-white mb-0">info@example.com</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa fa-phone-alt text-primary me-3"></i>
+                                <p class="text-white mb-0">(+012) 3456 7890</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-4">
+                                <i class="fab fa-firefox-browser text-primary me-3"></i>
+                                <p class="text-white mb-0">Yoursite@ex.com</p>
+                            </div>
+                            <div class="d-flex">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-twitter text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-instagram text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Gerbox Shop</a>, All right reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
